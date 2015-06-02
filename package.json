@@ -1,0 +1,33 @@
+{
+  "name": "ng2-sensortag",
+  "scripts": {
+    "compile:main": "node ./tools/tsc/tsc.js src/main.ts --target es5 --module system --outDir ./temp --emitDecoratorMetadata",
+    "build:main": "node ./tools/build.js --path 'app/main - www/lib' --outFile ./www/main.js --configFile ./config.js",
+    "build:lib": "node ./tools/build.js --path 'app/**/* - [app/**/*]' --outFile ./www/lib.js --configFile ./config.js",
+    "build:min": "node ./tools/build.js --path 'app/main' --outFile ./www/main.min.js --configFile ./config.js --minify --mangle"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-alpha.25",
+      "babel": "npm:babel-core@^5.4.3",
+      "babel-runtime": "npm:babel-runtime@^5.4.3",
+      "es6-shim": "npm:es6-shim@^0.31.2",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.0",
+      "rx": "npm:rx@^2.5.2"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.4.3",
+      "babel-runtime": "npm:babel-runtime@^5.4.3",
+      "core-js": "npm:core-js@^0.9.10",
+      "traceur": "github:jmcriffey/bower-traceur@0.0.88",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88"
+    }
+  },
+  "dependencies": {
+    "jspm": "jspm/jspm-cli#master"
+  },
+  "devDependencies": {
+    "yargs": "^3.10.0"
+  }
+}

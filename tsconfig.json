@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"outDir": "temp",
+		"target": "ES5",
+		"emitDecoratorMetadata": true,
+		"module": "system"
+	},
+	"files": [
+		"src/main.ts"
+	]
+}

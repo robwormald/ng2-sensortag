@@ -1,0 +1,66 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "cordova/plugins/BatteryStatus.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "cordova/plugins/Contacts.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "cordova/plugins/Device.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "cordova/plugins/DeviceMotion.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "cordova/plugins/Dialogs.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "cordova/plugins/Camera.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "cordova/plugins/DeviceOrientation.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "cordova/plugins/FileSystem.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "cordova/plugins/FileTransfer.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "cordova/plugins/Globalization.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "cordova/plugins/InAppBrowser.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "cordova/plugins/Media.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "cordova/plugins/NetworkInformation.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "cordova/plugins/Push.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "cordova/plugins/MediaCapture.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "cordova/plugins/StatusBar.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "cordova/plugins/Vibration.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "cordova/plugins/WebSQL.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    },
+    "cordova/plugins/Splashscreen.d.ts": {
+      "commit": "484544d14d400190b20f270341c97b16adc0f1ef"
+    }
+  }
+}
