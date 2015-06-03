@@ -25,5 +25,9 @@
     },
     "permissions": [
         "<all_urls>"
-    ]
+    ],
+    "bluetooth": {
+        "low_energy": true
+    }
+    
 }
