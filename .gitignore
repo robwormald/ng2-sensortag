@@ -11,6 +11,9 @@
 /node_modules/
 /typings/
 
+# temp directories
+/temp/
+
 # Other cca artefacts.
 /.cordova/
 /cca
